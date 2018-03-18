@@ -8,4 +8,4 @@ try:
 	va = na/0
 except ZeroDivisionError:
 	print("divde by zero")
-	raise ValueError
+	raise ValueError # simple raise can be used to raise same exception

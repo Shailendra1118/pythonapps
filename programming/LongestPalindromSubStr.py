@@ -62,6 +62,6 @@ def longestPalSubstr(st) :
 
 
 # Driver program to test above functions
-st = "forgeeksskeegfor"
+st = "aabbaadcaac"
 l = longestPalSubstr(st)
 print("\nLength is:", l)

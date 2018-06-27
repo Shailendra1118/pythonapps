@@ -63,8 +63,15 @@ words.reverse()
 print(words)
 
 # another way of reversing the list in Python
-L = [0,10,20,40]
-L = L[::-6]
+L = [0,10,20,40,50]
 print(L)
+L = L[::-1]
+
+print(L[:-2]) #indexing from the last
+
+squares = [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+
+print(squares[2:3]) # last index is exclusive, first is inclusive
+print(L[2:3])
 
 

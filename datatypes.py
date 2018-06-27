@@ -19,6 +19,13 @@ print(lastName)
 
 print(None) # similar to null, In python it is an object
 None
+print("printing Null")
+# None is return default by function returning nothing
+def doSomething(value):
+	print("Doing something with "+value)
+
+var = doSomething("Dave");
+print(var)
 
 # More types
 # dictionary
@@ -78,3 +85,5 @@ print(squares[::-1])
 # a list comprehension
 cubes = [i**3 for i in range(5)]
 print(cubes)
+
+

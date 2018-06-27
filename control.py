@@ -19,7 +19,7 @@ if(not 1==2):
 	print("its not")
 
 
-#== has a higher precedence than or:
+# == has a higher precedence than or:
 # parentheses first, then exponentiation
 # Unary operators like complement ~+-
 # then multiplication/division, and then addition/subtraction
@@ -64,3 +64,5 @@ print(nlist)
 
 for x in range(1,5): #5 is excluding
 	print(x)
+
+
